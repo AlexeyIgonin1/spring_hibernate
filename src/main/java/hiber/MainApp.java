@@ -54,19 +54,24 @@ public class MainApp {
 //         System.out.println();
 //      }
 //
-//      List<Car> cars = userService.listCar();
+//      List<Car> cars = userService.listCars();
 //      for(Car car : cars){
 //         System.out.println("Id = " + car.getId());
 //         System.out.println("Model = " + car.getModel());
 //         System.out.println("Series = " + car.getSeries());
 //         System.out.println();
 //      }
+//
+      userService.deleteUser(7);
+//      userService.deleteUser(6);
+//
+//      List<User> users = userService.listCarUser();
+//      for (User user : users) {
+//
+//         System.out.println(user.getId()+ " " + user.getLastName() + " " + user.getCar() + "\t");
+//      }
 
-      List<User> users = userService.listCarUser();
-      for (User user : users) {
 
-         System.out.println(user.getId()+ " " + user.getLastName() + " " + user.getCar() + "\t");
-      }
 
 //      for (User user : userService.listUsers()) {
 //         System.out.println(user + " " + user.getCar());
